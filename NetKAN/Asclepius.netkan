@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "license": "LGPL-3.0",
+    "$kref": "#/ckan/kerbalstuff/1000",
+    "identifier": "Asclepius",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "suggests": [
+        { "name": "Asclepius-clouds" }
+    ],
+    "conflicts": [
+        { "name": "RealSolarSystem" }
+    ],
+    "install": [
+        {
+            "find"       : "Asclepius",
+            "install_to" : "GameData"
+        }
+    ]
+}
